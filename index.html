@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome | Game Technical Artist Portfolio</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <canvas id="fx-canvas" aria-hidden="true"></canvas>
+  <div class="noise-layer" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="social-brand" aria-label="Social links"><a class="home-cube" href="secret-runner.html" aria-label="Open hidden runner game"><span></span><span></span><span></span></a>
+      <a class="social-icon bili" href="social-bilibili.html" aria-label="Bilibili profile"><img src="assets/icons/BILIBILI_LOGO.png" alt=""></a>
+      <a class="social-icon artstation" href="social-artstation.html" aria-label="ArtStation profile"><img src="assets/icons/artstation.png" alt=""></a>
+      <a class="social-icon discord" href="social-discord.html" aria-label="Discord profile"><img src="assets/icons/discord.png" alt=""></a>
+    </div>
+    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a class="active" href="index.html">Welcome</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="career.html">Career</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="showcase-hero ticket-hero">
+      <div class="ticket-row" aria-label="Featured project tickets">
+        <article class="ticket-card ticket-subway">
+          <a class="ticket-project-hit" href="project-syneste-mocap-research.html" aria-label="Open Syneste Mocap Research"></a>
+          <span class="ticket-topline">Ticket to Syneste Research</span>
+          <span class="ticket-index">01</span>
+          <span class="ticket-main">
+            <span class="ticket-meta">Realtime Mocap / Animation Pipeline</span>
+            <strong>Syneste Mocap Research</strong>
+            <span class="ticket-date">Jan 2026 - May 2026</span>
+          </span>
+          <span class="ticket-stub">
+            <a class="ticket-qr" href="secret-runner.html" aria-label="Open hidden runner game"><img src="assets/secret-runner-qr.svg" alt=""></a>
+            <span class="ticket-open">Open Project</span>
+          </span>
+        </article>
+        <article class="ticket-card ticket-nuclear">
+          <a class="ticket-project-hit" href="project-50-years-after-nuclear-war.html" aria-label="Open 50 Years After Nuclear War"></a>
+          <span class="ticket-topline">Ticket to Nuclear War</span>
+          <span class="ticket-index">02</span>
+          <span class="ticket-main">
+            <span class="ticket-meta">3D Art / Concept Design</span>
+            <strong>50 Years After Nuclear War</strong>
+            <span class="ticket-date">Mar 2024 - May 2024</span>
+          </span>
+          <span class="ticket-stub">
+            <a class="ticket-qr" href="secret-runner.html" aria-label="Open hidden runner game"><img src="assets/secret-runner-qr.svg" alt=""></a>
+            <span class="ticket-open">Open Project</span>
+          </span>
+        </article>
+        <article class="ticket-card ticket-mask ticket-placeholder">
+          <a class="ticket-project-hit" href="project-placeholder-03.html" aria-label="Open project placeholder"></a>
+          <span class="ticket-topline">Ticket Pending</span>
+          <span class="ticket-index">03</span>
+          <span class="ticket-main">
+            <span class="ticket-meta">Placeholder / Coming Soon</span>
+            <strong>Project Placeholder</strong>
+            <span class="ticket-date">Assets to be added</span>
+          </span>
+          <span class="ticket-stub">
+            <a class="ticket-qr" href="secret-runner.html" aria-label="Open hidden runner game"><img src="assets/secret-runner-qr.svg" alt=""></a>
+            <span class="ticket-open">Pending</span>
+          </span>
+        </article>
+        <article class="ticket-card ticket-breakdown ticket-placeholder">
+          <a class="ticket-project-hit" href="project-placeholder-04.html" aria-label="Open project placeholder"></a>
+          <span class="ticket-topline">Ticket Pending</span>
+          <span class="ticket-index">04</span>
+          <span class="ticket-main">
+            <span class="ticket-meta">Placeholder / Coming Soon</span>
+            <strong>Project Placeholder</strong>
+            <span class="ticket-date">Content to be added</span>
+          </span>
+          <span class="ticket-stub">
+            <a class="ticket-qr" href="secret-runner.html" aria-label="Open hidden runner game"><img src="assets/secret-runner-qr.svg" alt=""></a>
+            <span class="ticket-open">Pending</span>
+          </span>
+        </article>
+      </div>
+
+      <div class="showcase-content ticket-title reveal-group">
+        <p class="eyebrow">Realtime mocap / 3D art / technical pipelines</p>
+        <h1><span>Game technical art</span> for worlds that feel alive.</h1>
+        <p class="hero-text">I build playable technical art work across mocap pipelines, realtime scenes, character assets, interaction prototypes, and production-ready visual systems.</p>
+      </div>
+    </section>
+
+    <section class="home-scroll-panel marble-panel" id="home-about">
+      <div>
+        <p class="eyebrow">About Me</p>
+        <h2>Technical art with a production mindset.</h2>
+      </div>
+      <p>I work between art and engineering: material systems, realtime scene assembly, lighting, visual debugging, and tools that make creative iteration faster.</p>
+    </section>
+
+    <section class="section capability-grid reveal-group">
+      <article class="glass-card tilt-card">
+        <span class="metric">01</span>
+        <h2>Shader Systems</h2>
+        <p>Stylized surfaces, masks, material functions, dissolve logic, outlines, and readable game-ready effects.</p>
+      </article>
+      <article class="glass-card tilt-card">
+        <span class="metric">02</span>
+        <h2>VFX Prototyping</h2>
+        <p>Interactive effects that support gameplay feedback, mood, timing, impact, and performance budgets.</p>
+      </article>
+      <article class="glass-card tilt-card">
+        <span class="metric">03</span>
+        <h2>Pipeline Tools</h2>
+        <p>Small tools and automation that help artists move faster without breaking naming, export, or engine rules.</p>
+      </article>
+    </section>
+
+    <section class="home-scroll-panel home-projects-preview" id="home-projects">
+      <div>
+        <p class="eyebrow">Selected Projects</p>
+        <h2>Media-first project pages for game work.</h2>
+        <p>Current project pages include finished media for Syneste Mocap Research and 50 Years After Nuclear War. Empty slots are clearly marked as upcoming placeholders.</p>
+      </div>
+      <div class="mini-project-list">
+        <a href="project-syneste-mocap-research.html">Syneste Mocap Research</a>
+        <a href="project-50-years-after-nuclear-war.html">50 Years After Nuclear War</a>
+        <a href="project-placeholder-03.html">Project Placeholder 03</a>
+        <a href="project-placeholder-04.html">Project Placeholder 04</a>
+      </div>
+    </section>
+
+    <section class="home-scroll-panel marble-panel" id="home-career">
+      <div>
+        <p class="eyebrow">Career / Education</p>
+        <h2>A path through engines, tools, and visual craft.</h2>
+      </div>
+      <p>Use this section as a preview of your learning path, internships, project milestones, game jams, coursework, and technical art direction.</p>
+    </section>
+
+    <section class="section lab-strip">
+      <div>
+        <p class="eyebrow">Interactive Portfolio Direction</p>
+        <h2>A portfolio that behaves like a realtime art lab.</h2>
+      </div>
+      <div class="status-grid" aria-label="Portfolio features">
+        <span>Cursor-reactive canvas</span>
+        <span>Animated card groups</span>
+        <span>Before / after compare</span>
+        <span>Black-green signal palette</span>
+      </div>
+    </section>
+
+    <section class="home-scroll-panel contact-preview" id="home-contact">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Open to game technical art conversations.</h2>
+      </div>
+      <a class="button primary" href="contact.html">Contact Me</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Technical Artist Portfolio</p>
+    <a href="contact.html">Open comms</a>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

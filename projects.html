@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Game Technical Artist Portfolio</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <canvas id="fx-canvas" aria-hidden="true"></canvas>
+  <div class="noise-layer" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="social-brand" aria-label="Social links"><a class="home-cube" href="secret-runner.html" aria-label="Open hidden runner game"><span></span><span></span><span></span></a><a class="social-icon bili" href="social-bilibili.html" aria-label="Bilibili profile"><img src="assets/icons/BILIBILI_LOGO.png" alt=""></a><a class="social-icon artstation" href="social-artstation.html" aria-label="ArtStation profile"><img src="assets/icons/artstation.png" alt=""></a><a class="social-icon discord" href="social-discord.html" aria-label="Discord profile"><img src="assets/icons/discord.png" alt=""></a></div>
+    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html">Welcome</a>
+      <a href="about.html">About</a>
+      <a class="active" href="projects.html">Projects</a>
+      <a href="career.html">Career</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero reveal-group">
+      <p class="eyebrow">Projects</p>
+      <h1>Selected mocap research, 3D art studies, and upcoming technical art projects.</h1>
+    </section>
+
+    <section class="section project-grid">
+      <article class="project-card tilt-card" id="syneste">
+        <a class="project-link" href="project-syneste-mocap-research.html" aria-label="Open Syneste Mocap Research project">
+          <div class="project-visual asset-visual"><img src="Official Asset/Project 1/cover.png" alt="Syneste mocap research cover"></div>
+          <div><p class="project-meta">Realtime Mocap Game / Animation Pipeline</p><h2>Syneste Mocap Research</h2><p>A Vicon-based mocap pipeline research project and interactive game prototype practice.</p></div>
+        </a>
+      </article>
+      <article class="project-card tilt-card" id="nuclear-war">
+        <a class="project-link" href="project-50-years-after-nuclear-war.html" aria-label="Open 50 Years After Nuclear War project">
+          <div class="project-visual asset-visual"><img src="Official Asset/Project 2/Project2Cover.png" alt="50 Years After Nuclear War cover"></div>
+          <div><p class="project-meta">3D Art / Concept Design</p><h2>50 Years After Nuclear War</h2><p>An immersive and interactive UE5 concept art project built as a solo production study.</p></div>
+        </a>
+      </article>
+      <article class="project-card tilt-card placeholder-card" id="placeholder-03">
+        <a class="project-link" href="project-placeholder-03.html" aria-label="Open project placeholder">
+          <div class="project-visual placeholder-visual"><span>Pending</span></div>
+          <div><p class="project-meta">Placeholder / Coming Soon</p><h2>Project Placeholder 03</h2><p>????This slot is reserved for future project media, breakdown notes, role details, and downloads.</p></div>
+        </a>
+      </article>
+      <article class="project-card tilt-card placeholder-card" id="placeholder-04">
+        <a class="project-link" href="project-placeholder-04.html" aria-label="Open project placeholder">
+          <div class="project-visual placeholder-visual"><span>Pending</span></div>
+          <div><p class="project-meta">Placeholder / Coming Soon</p><h2>Project Placeholder 04</h2><p>????This slot will be updated once the next set of official assets is ready.</p></div>
+        </a>
+      </article>
+    </section>
+
+    <section class="section compare-section">
+      <div>
+        <p class="eyebrow">Before / After</p>
+        <h2>Interaction concept for showing art-tech improvements.</h2>
+        <p>Drag the divider to compare a breakdown state against a tuned material presentation. Project pages now expand this into Steam-like media galleries.</p>
+      </div>
+      <div class="compare-widget asset-compare" data-compare>
+        <div class="compare-base">
+          <img src="Official Asset/Project 2/Project_13.png" alt="Wireframe and texture breakdown state">
+        </div>
+        <div class="compare-overlay">
+          <img src="Official Asset/Project 2/Project_09.png" alt="Final gas mask render state">
+        </div>
+        <span class="compare-badge compare-badge-left">Final Render</span>
+        <span class="compare-badge compare-badge-right">Breakdown</span>
+        <div class="compare-handle" aria-hidden="true"></div>
+        <input type="range" min="0" max="100" value="58" aria-label="Compare breakdown and material pass">
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Technical Artist Portfolio</p>
+    <a href="contact.html">Open comms</a>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
