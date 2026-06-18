@@ -72,7 +72,35 @@
   "Education": "教育",
   "Academic / Training Background": "学术 / 培训背景",
   "Add school, degree, certifications, relevant classes, awards, research topics, and technical art learning path.": "这里可以加入学校、学位、证书、相关课程、奖项、研究主题和技术美术学习路径。",
-  "Need a technical artist who can make visuals work in-engine?": "需要一位能让视觉在引擎里真正跑起来的技术美术吗？",
+  "Education and professional work across game design, technical art, and animation pipelines.": "横跨游戏设计、技术美术和动画管线的教育与职业经历。",
+  "Education Background": "教育背景",
+  "Parsons School of Design": "帕森斯设计学院",
+  "New York, United States": "纽约，美国",
+  "BFA Design and Technology": "本科（BFA 艺术学士）：设计与科技",
+  "BFA Design and Technology / Art and design university ranked QS World No.3 and U.S. No.1 in 2024.": "本科（BFA 艺术学士）：设计与科技，帕森斯设计学院 2024 年 QS 艺术与设计大学世界第三、美国第一。",
+  "Focused on Unity game development and game design principles, with coursework including Lore Lab, Studio core game design, CG1/2, modeling, and rendering.": "主要学习 Unity 游戏开发和游戏设计原理，主修课程包括 Lore Lab、Studio 核心游戏设计课、CG1/2、建模与渲染课程。",
+  "GPA: 3.87 / 4.0. Scholarship: 32,000 USD.": "GPA：3.87 / 4.0。奖学金：32000 USD。",
+  "Rochester Institute of Technology": "罗切斯特理工",
+  "Rochester, United States": "罗切斯特，美国",
+  "MS Game Design and Development": "硕士（MS 科学硕士）：游戏设计与开发",
+  "MS Game Design and Development / STEM program ranked U.S. News No.3 in game design.": "硕士（MS 科学硕士）：游戏设计与开发，U.S. News 游戏设计第三，STEM 专业。",
+  "601 Game Development:": "601 Game Development：",
+  "601 Game Development: designed and produced a psychological horror game prototype in a five-person team, iterated through multiple rounds of playtesting, improved performance and gameplay, and delivered a highly polished prototype with hundreds of plays and dozens of positive comments.": "601 Game Development：以 5 人小组的形式，按照游戏行业标准，在学期内设计制作一款心理恐怖游戏原型，并根据试玩多次迭代，优化游戏性能，改善游戏玩法，最终产出完成度较高的游戏原型。收获上百次游玩和数十次好评。",
+  "Procedural Generation:": "Procedural Generation：",
+  "Procedural Generation: practiced procedural content creation in Unity, including wave-function-collapse, Lindenmayer systems, Perlin noise, algorithmic terrain, landform and river generation, procedural scene props, and batch material workflows with texture sets.": "Procedural Generation：在 Unity 中，利用波函数坍缩算法、林登迈尔系统算法、柏林噪声算法来程序化生成游戏内容。在课程中掌握了利用算法生成山地、地牢、河流等地形，以及在游戏中程序化生成场景道具，或使用贴图集来批量制定材质。",
+  "GPA: 3.7 / 4.0. Scholarship: RIT Graduate and Merit Scholarship, 55% tuition award.": "GPA：3.7 / 4.0。奖学金：RIT Graduate and Merit Scholarship，55% 半奖奖学金。",
+  "Professional": "职业",
+  "Professional Experience": "职业经历",
+  "MAGIC Maker Research Project - Syneste": "MAGIC Maker Research Project - Syneste",
+  "2026.01 - Now": "2026.1 - 至今",
+  "Role:": "担任角色：",
+  "Role: Project Lead, Mocap Animator, and Researcher.": "担任角色：项目组长、动捕动画师、研究员。",
+  "Project setup:": "项目立项：",
+  "Project setup: sponsored by RIT MAGIC Spell Studios with equipment support, this project studies concrete applications of motion capture in games and film.": "项目立项：本项目由罗切斯特理工的 MAGIC Spell Studio 赞助并提供设备支持，旨在研究动作捕捉在游戏和影视领域的具体应用。",
+  "Mocap workflow research:": "领导动捕工作研究：",
+  "Mocap workflow research: led team members in motion capture research, recorded mocap data with Vicon optical capture equipment in the MAGIC Spell Studios mocap room, imported assets into different engines and platforms, and documented workflow problems and solutions. Through the project, I accumulated experience in mocap production, animation production, and project management.": "领导动捕工作研究：在项目中，我负责领导组员开展动捕研究，以及在 MAGIC Spell Studio 的动捕工作室中利用 Vicon 光学动捕设备录制素材，并导入不同引擎和平台中，对工作流和产生的问题进行研究、记录和解决。最终，在项目中积攒了大量动捕制作、动画制作和项目管理相关的经验。",
+  "Industry communication:": "开展行业交流：",
+  "Industry communication: actively exchanged with universities and industry companies, shared mocap production experience with different teams, and improved my problem-solving approach. These exchanges helped complete the research and produce rigorous reports and documentation.": "开展行业交流：在研究的过程中，积极与不同高校以及行业内公司进行交流，通过和不同团队分享动捕制作的经验，从而提升了我在解决问题时的能力和思路。最终这些交流也帮助我更好地完成了项目的研究，产出了严谨的研究报告和文档。",  "Need a technical artist who can make visuals work in-engine?": "需要一位能让视觉在引擎里真正跑起来的技术美术吗？",
   "Open Channel": "开放联系",
   "Replace these placeholders with your real email, ArtStation, GitHub, LinkedIn, and demo reel links.": "之后可以把这些占位内容替换为真实邮箱、ArtStation、GitHub、LinkedIn 和 Demo Reel 链接。",
   "Email": "邮箱",
@@ -819,6 +847,7 @@ if (runnerCanvas && runnerCtx) {
     stepRunner(time);
   });
 }
+
 
 
 
