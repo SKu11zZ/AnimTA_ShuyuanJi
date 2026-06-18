@@ -3710,3 +3710,60 @@ p,
 .asset-compare input[type="range"] {
   z-index: 5;
 }
+
+/* Global restrained page title scale: align major titles with the games page. */
+.showcase-content h1,
+.hero-copy h1,
+.page-hero h1,
+.project-store-info h1,
+.placeholder-page h1,
+.runner-copy h1 {
+  font-size: clamp(34px, 4.3vw, 68px) !important;
+  line-height: 1 !important;
+  letter-spacing: 0 !important;
+}
+
+.home-scroll-panel h2,
+.compare-section h2,
+.career-section-heading h2,
+.game-list-heading h2 {
+  font-size: clamp(30px, 3.4vw, 54px) !important;
+  line-height: 1.04 !important;
+  letter-spacing: 0 !important;
+}
+
+.project-store-info h1 {
+  max-width: 820px;
+}
+
+.lang-zh .showcase-content h1,
+.lang-zh .hero-copy h1,
+.lang-zh .page-hero h1,
+.lang-zh .project-store-info h1,
+.lang-zh .placeholder-page h1,
+.lang-zh .runner-copy h1,
+.lang-zh .home-scroll-panel h2,
+.lang-zh .compare-section h2,
+.lang-zh .career-section-heading h2,
+.lang-zh .game-list-heading h2 {
+  line-height: 1.08 !important;
+  letter-spacing: 0 !important;
+}
+
+@media (max-width: 700px) {
+  .showcase-content h1,
+  .hero-copy h1,
+  .page-hero h1,
+  .project-store-info h1,
+  .placeholder-page h1,
+  .runner-copy h1 {
+    font-size: clamp(30px, 9vw, 42px) !important;
+  }
+
+  .home-scroll-panel h2,
+  .compare-section h2,
+  .career-section-heading h2,
+  .game-list-heading h2 {
+    font-size: clamp(26px, 7.5vw, 36px) !important;
+  }
+}
