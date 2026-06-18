@@ -2795,3 +2795,19 @@ p,
 }
 
 
+
+/* About portrait refinement */
+.about-portrait {
+  background: linear-gradient(145deg, rgba(214, 181, 106, 0.12), rgba(0, 0, 0, 0.72));
+}
+
+.about-portrait img {
+  object-fit: cover;
+  object-position: center 38%;
+}
+
+.about-link {
+  align-self: flex-start;
+  margin-top: 10px;
+  margin-bottom: 4px;
+}

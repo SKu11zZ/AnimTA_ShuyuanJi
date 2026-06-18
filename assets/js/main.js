@@ -172,7 +172,13 @@
   "Render Video": "渲染视频",
   "Download Demo Video": "下载演示视频",
   "Download Render Video": "下载渲染视频",
-  "View ArtStation": "查看 ArtStation",
+  "Turning animation problems into runnable game systems": "把动画问题转化为可运行的游戏系统",
+  "From China, game design and development master's student with six years of study in the United States": "来自中国，留美6年的游戏设计与开发硕士",
+  "Technical Artist": "技术美术",
+  "My name is Shuyuan Ji. Friends in the United States also call me Moore. I graduated from Parsons School of Design with a BFA in Design and Technology, where I mainly studied Unity game development and game design principles. I am currently pursuing an MS in Game Design and Development at Rochester Institute of Technology.": "我叫姬舒源（Shuyuan Ji），我在美国的朋友也会叫我Moore。我本科毕业于帕森斯设计学院的BFA Design and Technology专业，主要学习Unity游戏开发和游戏设计原理。硕士就读于罗切斯特理工的MS Game Design and Development。",
+  "My main direction is game technical art, with a specialization on the animation side: motion capture animation pipelines, animation tool development, and UE5 animation workflows. I have rich project implementation experience and AI Agent usage experience.": "我的主要方向是游戏技术美术，我专精于动画侧，包含动捕动画管线，动画工具开发，UE5动画管线。我拥有丰富的项目实施经验和AI Agent使用经验。",
+  "I am also an experienced 3D artist, with skills and works across hard-surface modeling and character sculpting.": "同时，我也是一个经验丰富的3D艺术家，有很多硬表面建模和人物雕刻的技能和作品。",
+  "View ArtStation": "我的 ArtStation",
   "Timeline": "时间",
   "Producer / Animation TA / Mocap Performer": "制作人 / 动画TA / 动捕演员",
   "Vicon / Unreal Engine 5 / Maya": "Vicon / Unreal Engine 5 / Maya",
@@ -813,6 +819,9 @@ if (runnerCanvas && runnerCtx) {
     stepRunner(time);
   });
 }
+
+
+
 
 
 
