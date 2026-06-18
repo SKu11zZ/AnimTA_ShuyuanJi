@@ -14,7 +14,7 @@
   "Download Video": "下载视频",
   "Download Clip": "下载片段",
   "Ticket to Subway Survival": "前往 地铁生存 镜头",
-  "Ticket to Nuclear War": "前往 核战后五十年",
+  "Ticket to Nuclear War": "车票前往 核战后五十年",
   "Ticket to Gas Mask": "前往 防毒面具道具",
   "Ticket to Breakdown": "前往 资产拆解图",
   "Lighting / Environment": "灯光 / 环境",
@@ -30,7 +30,7 @@
   "Game technical art": "游戏技术美术",
   "for worlds that feel alive.": "让世界真正活起来。",
   "I build the bridge between art direction and engine reality: materials, VFX, rigging tools, procedural systems, optimization, and visual problem solving.": "我连接艺术方向与引擎现实：材质、特效、绑定工具、程序化系统、优化，以及视觉问题解决。",
-  "About Me": "关于我",
+  "About Me": "我是谁",
   "Technical art with a production mindset.": "以生产思维做技术美术。",
   "I work between art and engineering: material systems, realtime scene assembly, lighting, visual debugging, and tools that make creative iteration faster.": "我工作在美术与工程之间：材质系统、实时场景搭建、灯光、视觉调试，以及让创作迭代更快的工具。",
   "Shader Systems": "着色器系统",
@@ -95,7 +95,7 @@
   "Beauty": "成品",
   "Video": "视频",
   "Key Art": "主视觉",
-  "Scene": "场景",
+  "Scene": "关卡",
   "Hero": "主图",
   "Alt Shot": "备用镜头",
   "Sheet": "图集",
@@ -143,14 +143,14 @@
   "Realtime mocap / 3D art / technical pipelines": "实时动捕 / 3D 美术 / 技术管线",
   "I build playable technical art work across mocap pipelines, realtime scenes, character assets, interaction prototypes, and production-ready visual systems.": "我围绕动捕管线、实时场景、角色资产、交互原型和生产级视觉系统构建可玩的技术美术作品。",
   "Current project pages include finished media for Syneste Mocap Research and 50 Years After Nuclear War. Empty slots are clearly marked as upcoming placeholders.": "当前项目页已加入 Syneste 动捕研究和核战后50年的正式媒体内容。空位会明确标记为待补充项目。",
-  "Ticket to Syneste Research": "前往 Syneste 动捕研究",
+  "Ticket to Syneste Research": "车票前往 Syneste 动捕研究",
   "Realtime Mocap / Animation Pipeline": "实时动捕 / 动画管线",
   "Realtime Mocap Game / Animation Pipeline": "实时动捕游戏 / 动画管线",
   "Syneste Mocap Research": "Syneste 动捕研究",
   "Jan 2026 - May 2026": "2026年1月 - 2026年5月",
-  "3D Art / Concept Design": "3D 美术 / 概念设计",
+  "3D Art / Concept Design": "3D 美术 / 服饰设计",
   "Mar 2024 - May 2024": "2024年3月 - 2024年5月",
-  "Ticket Pending": "车票待补充",
+  "Ticket Pending": "车票前往 待补充项目",
   "Placeholder / Coming Soon": "待补充 / 即将添加",
   "Project Placeholder": "项目待补充",
   "Project Placeholder 03": "项目待补充 03",
@@ -165,10 +165,10 @@
   "待补充：This slot will be updated once the next set of official assets is ready.": "待补充：下一组正式素材准备好后会更新这个项目位。",
   "Cover": "封面",
   "Pipeline": "管线",
-  "Prototype": "原型",
+  "Prototype": "研究",
   "Demo Video": "演示视频",
-  "Concept": "概念",
-  "Gameplay": "玩法",
+  "Concept": "服饰设计",
+  "Gameplay": "资产",
   "Render Video": "渲染视频",
   "Download Demo Video": "下载演示视频",
   "Download Render Video": "下载渲染视频",
@@ -191,12 +191,27 @@
   "This project helped me practice the full pipeline from concept to character modeling, face sculpting, clothing and prop creation, material production, and importing into the game engine. I solved many common 3D art problems, including UV layout, material blending, and asset integration, strengthening my foundation as a 3D artist.": "这个项目让我完整实践了从概念、角色模型制作、脸部雕刻、衣服/道具制作、材质制作到导入游戏引擎的完整流程。在过程中我解决了很多 3D 美术常见问题，例如 UV 拆分、材质混合和资产整合，也夯实了我作为 3D 美术的基础。",
   "Project Slot 03": "项目位 03",
   "Project Slot 04": "项目位 04",
-  "This slot is reserved for an upcoming portfolio project. Assets, breakdown notes, gameplay media, and download links will be added later.": "这个位置预留给后续作品。图片、拆解说明、玩法媒体和下载链接会在之后补充。"
+  "This slot is reserved for an upcoming portfolio project. Assets, breakdown notes, gameplay media, and download links will be added later.": "这个位置预留给后续作品。图片、拆解说明、玩法媒体和下载链接会在之后补充。",
+  "Ticket to Syneste Mocap Research": "车票前往 Syneste 动捕研究",
+  "Ticket to 50 Years After Nuclear War": "车票前往 核战后五十年",
+  "Ticket to Project Placeholder": "车票前往 待补充项目",
+  "3D Art / Costume Design": "3D 美术 / 服饰设计",
+  "Research": "研究",
+  "Costume Design": "服饰设计",
+  "Level": "关卡",
+  "Asset": "资产",
+  "Technical Art - bringing concepts and creative ideas into production pipelines": "技术美术 - 让概念和创意落地到生产管线",
+  "I build technical art work with design, aesthetics, and creativity around mocap animation pipelines, Unreal Engine, character assets, and game design": "我围绕动捕动画管线，虚幻引擎，角色资产和游戏设计构建有设计，有审美，有创意的技术美术作品",
+  "I bring animation pipelines, engine craft, and game-ready visual ideas into production.": "我把动画管线、引擎技术和游戏视觉创意落地到生产流程",
+  "I work at the intersection of art, engineering, and design, with a focus on motion capture animation pipelines, Unreal Engine workflows, character assets, and playable visual systems. My goal is to turn concepts and creative ideas into production-ready technical art that can be tested, understood, and shipped.": "我的工作处在美术、工程和设计的交汇处，重点关注动捕动画管线、虚幻引擎工作流、角色资产和可玩的视觉系统。我的目标是把概念和创意转化成可以测试、可以理解、也可以交付的生产级技术美术作品。",
+  "In Syneste Mocap Research, I led a team sponsored by RIT MAGIC Spell Studios to study Vicon motion capture workflows, realtime retargeting through Livelink, Metahuman integration, UE interaction, and the process of turning mocap recordings into usable production assets. The project produced research documentation, pipeline guidance, and an interactive demo shown at Imagine RIT.": "在 Syneste 动捕研究中，我带领由 RIT MAGIC Spell Studios 赞助的团队研究 Vicon 动捕工作流、通过 Livelink 进行实时重定向、Metahuman 集成、UE 交互，以及将动捕录制转换成可用生产资产的流程。项目产出了研究文档、管线指导，并完成了一个在 Imagine RIT 展示的交互式 Demo。",
+  "In 50 Years After Nuclear War, I completed a solo UE5 concept art project that covered character modeling, face sculpting, clothing and prop creation, materials, scene dressing, interaction logic, and engine integration. It helped me practice the complete path from visual concept to playable game scene.": "在《核战后五十年》中，我独立完成了一个 UE5 概念美术项目，覆盖角色建模、脸部雕刻、服饰与道具制作、材质、场景搭建、交互逻辑和引擎整合。这个项目让我完整练习了从视觉概念到可玩游戏场景的流程。",
+  "This portfolio is built to show not only finished images, but also the thinking behind them: research, design decisions, asset workflows, interactive prototypes, and the technical steps that make game visuals work inside an engine.": "这个作品集不仅展示最终画面，也展示背后的思考：研究过程、设计决策、资产工作流、交互原型，以及让游戏视觉真正跑进引擎里的技术步骤。"
 };
 
 const titleMap = {
   "Welcome | Game Technical Artist Portfolio": "欢迎 | 游戏技术美术作品集",
-  "About Me | Game Technical Artist Portfolio": "关于我 | 游戏技术美术作品集",
+  "About Me | Game Technical Artist Portfolio": "我是谁 | 游戏技术美术作品集",
   "Projects | Game Technical Artist Portfolio": "项目 | 游戏技术美术作品集",
   "Career & Education | Game Technical Artist Portfolio": "经历与教育 | 游戏技术美术作品集",
   "Contact Me | Game Technical Artist Portfolio": "联系我 | 游戏技术美术作品集",
@@ -798,6 +813,7 @@ if (runnerCanvas && runnerCtx) {
     stepRunner(time);
   });
 }
+
 
 
 
