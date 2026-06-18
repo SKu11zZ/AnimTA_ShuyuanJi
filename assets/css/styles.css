@@ -3581,3 +3581,77 @@ p,
     margin-inline: auto;
   }
 }
+
+/* Game record capsule marquee pass */
+.game-record-marquee {
+  grid-template-columns: minmax(180px, 0.6fr) minmax(0, 1.95fr);
+  align-items: center;
+}
+
+.game-record-marquee .game-record-title {
+  align-self: start;
+}
+
+.game-capsule-marquee {
+  position: relative;
+  min-width: 0;
+  overflow: hidden;
+  padding: 6px 0;
+  mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+}
+
+.game-capsule-track {
+  display: flex;
+  width: max-content;
+  gap: 10px;
+  animation: game-capsule-scroll 24s linear infinite;
+}
+
+.game-capsule-marquee:hover .game-capsule-track {
+  animation-play-state: paused;
+}
+
+.game-capsule-track span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 8px 16px;
+  border: 1px solid rgba(214, 181, 106, 0.42);
+  border-radius: 999px;
+  background: linear-gradient(135deg, rgba(214, 181, 106, 0.12), rgba(10, 10, 10, 0.88));
+  color: rgba(245, 243, 234, 0.88);
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  box-shadow: inset 0 0 18px rgba(214, 181, 106, 0.08);
+}
+
+.game-marquee-note {
+  grid-column: 2;
+  margin: -4px 0 0;
+  color: rgba(245, 243, 234, 0.56);
+  font-size: clamp(13px, 0.9vw, 15px);
+}
+
+@keyframes game-capsule-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@media (max-width: 700px) {
+  .game-record-marquee {
+    grid-template-columns: 1fr;
+  }
+
+  .game-marquee-note {
+    grid-column: 1;
+  }
+
+  .game-capsule-track span {
+    min-height: 32px;
+    padding: 7px 13px;
+    font-size: 11px;
+  }
+}

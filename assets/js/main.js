@@ -11,6 +11,15 @@
   "This section is reserved for the games I play seriously: playtime, rank, milestone achievements, and the way each game shaped my design taste.": "这里预留给我认真游玩的游戏：游玩时长、段位、里程碑成就，以及这些游戏如何影响我的设计审美。",
   "Personal game achievements": "个人游戏成就",
   "Game Name Pending": "游戏名称待补充",
+  "Game Record Pending": "游戏记录待补充",
+  "README game achievement entry pending.": "README 中的游戏成就条目待补充。",
+  "Other games I played": "我还玩过的游戏",
+  "README list pending": "README 列表待补充",
+  "More played games": "更多游玩游戏",
+  "Challenge runs": "挑战记录",
+  "Competitive practice": "竞技练习",
+  "Design references": "设计参考",
+  "The remaining played-game names from README will scroll here.": "README 中其余玩过的游戏名称会在这里滚动展示。",
   "Playtime": "游玩时长",
   "Rank": "段位",
   "Achievement": "成就",
@@ -897,5 +906,6 @@ if (runnerCanvas && runnerCtx) {
     stepRunner(time);
   });
 }
+
 
 
