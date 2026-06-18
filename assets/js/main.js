@@ -6,6 +6,8 @@
   "Career": "经历",
   "Contact": "联系",
   "Game records, ranks, and personal achievements": "游戏记录、段位和个人成就",
+  "Game Records": "游戏记录",
+  "Worked Games": "参与制作的游戏",
   "This section is reserved for the games I play seriously: playtime, rank, milestone achievements, and the way each game shaped my design taste.": "这里预留给我认真游玩的游戏：游玩时长、段位、里程碑成就，以及这些游戏如何影响我的设计审美。",
   "Personal game achievements": "个人游戏成就",
   "Game Name Pending": "游戏名称待补充",
@@ -895,4 +897,5 @@ if (runnerCanvas && runnerCtx) {
     stepRunner(time);
   });
 }
+
 
