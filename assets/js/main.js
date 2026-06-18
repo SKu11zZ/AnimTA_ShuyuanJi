@@ -20,6 +20,27 @@
   "Competitive practice": "竞技练习",
   "Design references": "设计参考",
   "The remaining played-game names from README will scroll here.": "README 中其余玩过的游戏名称会在这里滚动展示。",
+  "RainbowSix: Siege": "彩虹六号：攻势",
+  "3000+ hours": "3000小时+",
+  "4400+ MMR across multiple seasons": "多赛季4400MMR+",
+  "2nd place in China Critical Moment League S3 Division B, Top 8 in S4 Division A, and multiple online tournaments from 2019 to 2021.": "中国《关键时刻联赛》S3乙级第二，S4甲级八强。2019-2021年间参与过多项线上赛事。",
+  "Valorant": "无畏契约",
+  "2000+ hours": "2000小时+",
+  "Immortal across multiple seasons": "多赛季神话（Immortal）",
+  "Premier Launch champion, multiple North American collegiate league appearances, and 2nd place in the PCL Immortal division.": "Premier Launch冠军，多次参加北美高校联赛，PCL神话赛段第二。",
+  "CS:GO": "CS：GO",
+  "1400+ hours": "1400小时+",
+  "SMFC": "小地球（SMFC）",
+  "FACEIT Level 7.": "FACEIT联赛7级。",
+  "Stellaris": "群星（Stellaris）",
+  "LoL": "英雄联盟（LoL）",
+  "Cities: Skylines I & II": "城市：天际线1 & 2（Cities: Skylines I & II）",
+  "Battlefield 5 & 6": "战地风云系列（Battlefield 5 & 6）",
+  "Party Animals": "猛兽派对（Party Animals）",
+  "Sid Meier's Civilization VI": "文明六（Sid Meier's Civilization VI）",
+  "Slay the Spire 1 & 2": "杀戮尖塔 1 & 2（Slay the Spire 1 & 2）",
+  "The Forest & Sons of the Forest": "森林 & 森林之子（The Forest & Sons of the Forest）",
+  "A rolling list of other games that shaped my systems thinking and design taste.": "这些游戏共同影响了我的系统思维、玩法理解和设计审美。",
   "Playtime": "游玩时长",
   "Rank": "段位",
   "Achievement": "成就",
@@ -906,6 +927,7 @@ if (runnerCanvas && runnerCtx) {
     stepRunner(time);
   });
 }
+
 
 
 
