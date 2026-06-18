@@ -3655,3 +3655,58 @@ p,
     font-size: 11px;
   }
 }
+
+/* Hard reset compare slider visibility: full-frame images, clipped top layer. */
+.compare-widget.asset-compare {
+  background: #050505 !important;
+}
+
+.asset-compare .compare-base,
+.asset-compare .compare-overlay {
+  position: absolute;
+  inset: 0;
+  display: block;
+  overflow: hidden;
+  background: #050505 !important;
+}
+
+.asset-compare .compare-overlay {
+  z-index: 2;
+  width: auto;
+  -webkit-clip-path: inset(0 calc(100% - var(--split)) 0 0) !important;
+  clip-path: inset(0 calc(100% - var(--split)) 0 0) !important;
+}
+
+.asset-compare .compare-base::before,
+.asset-compare .compare-overlay::before {
+  opacity: 0 !important;
+  content: none !important;
+}
+
+.asset-compare .compare-base img,
+.asset-compare .compare-overlay img {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  max-height: none !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  transform: none !important;
+  filter: none !important;
+}
+
+.asset-compare .compare-base img {
+  filter: saturate(0.92) contrast(1.03) brightness(0.9) !important;
+}
+
+.asset-compare .compare-overlay img {
+  filter: saturate(1.06) contrast(1.04) brightness(1.02) !important;
+}
+
+.asset-compare .compare-badge,
+.asset-compare .compare-handle,
+.asset-compare input[type="range"] {
+  z-index: 5;
+}
