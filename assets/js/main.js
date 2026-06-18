@@ -32,15 +32,15 @@
   "I build the bridge between art direction and engine reality: materials, VFX, rigging tools, procedural systems, optimization, and visual problem solving.": "我连接艺术方向与引擎现实：材质、特效、绑定工具、程序化系统、优化，以及视觉问题解决。",
   "About Me": "我是谁",
   "Technical art with a production mindset.": "以生产思维做技术美术。",
-  "I work between art and engineering: material systems, realtime scene assembly, lighting, visual debugging, and tools that make creative iteration faster.": "我工作在美术与工程之间：材质系统、实时场景搭建、灯光、视觉调试，以及让创作迭代更快的工具。",
-  "Shader Systems": "着色器系统",
-  "Stylized surfaces, masks, material functions, dissolve logic, outlines, and readable game-ready effects.": "风格化表面、遮罩、材质函数、溶解逻辑、描边，以及清晰可读的游戏内效果。",
-  "VFX Prototyping": "特效原型",
-  "Interactive effects that support gameplay feedback, mood, timing, impact, and performance budgets.": "服务于玩法反馈、氛围、节奏、打击感和性能预算的交互式效果。",
-  "Pipeline Tools": "流程工具",
-  "Small tools and automation that help artists move faster without breaking naming, export, or engine rules.": "小工具与自动化，帮助美术更快工作，同时不破坏命名、导出与引擎规则。",
-  "Selected Projects": "精选项目",
-  "Media-first project pages for game work.": "面向游戏作品的媒体优先项目页。",
+  "I build bridges between art, animation, and programming: mocap pipelines, automated tool development, animation optimization, IK design, iteration, and more.": "我在美术，动画和程序之间建立桥梁：动捕管线，自动化工具开发，动画优化，IK设计和迭代...",
+  "Motion Capture Animation Pipeline": "动捕动画管线",
+  "Research and practice with Vicon and Rokoko motion capture animation pipelines, plus applying Metahuman monocular mocap to game-ready assets.": "Vicon和Rokoko动捕动画管线研究与实践，Metahuman单目动捕到游戏资产的应用。",
+  "Deep AI Involvement": "深度AI参与",
+  "Using Codex, Claude Code, and other AI Agents to accelerate development, with deep hands-on experience across image, audio, video, and generative AI workflows.": "利用Codex&Claude code等等AI Agent加速开发速度，从图像，到音视频生成等等生成式AI，均有深度体验。",
+  "Game Design": "游戏设计",
+  "Over five years of Unity and Unreal Engine game development experience, serving as producer and technical artist across multiple projects with strong teamwork and leadership experience.": "超过5年的Unity/UE游戏开发经验，在多个项目中担任制作人&技术美术，有丰富的团队协作和领导能力。",
+  "Key Projects": "精选项目",
+  "My Key Projects": "我的重点项目",
   "Each project now opens like a compact Steam page, with image/video switching, role notes, tools, and download actions.": "每个项目都像紧凑版 Steam 页面：支持图片/视频切换、职责说明、工具信息和下载操作。",
   "Career / Education": "职业 / 教育",
   "A path through engines, tools, and visual craft.": "一条穿过引擎、工具与视觉工艺的路径。",
@@ -819,6 +819,7 @@ if (runnerCanvas && runnerCtx) {
     stepRunner(time);
   });
 }
+
 
 
 
