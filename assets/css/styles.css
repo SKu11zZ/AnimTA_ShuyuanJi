@@ -3141,3 +3141,34 @@ p,
   }
 }
 
+
+/* Compare slider sync fix: keep sharp image and blurred backing clipped by the same split. */
+.compare-overlay {
+  -webkit-clip-path: inset(0 calc(100% - var(--split)) 0 0);
+  clip-path: inset(0 calc(100% - var(--split)) 0 0);
+}
+
+.asset-compare .compare-base,
+.asset-compare .compare-overlay {
+  place-items: stretch;
+}
+
+.asset-compare .compare-base::before,
+.asset-compare .compare-overlay::before {
+  pointer-events: none;
+}
+
+.asset-compare .compare-base img,
+.asset-compare .compare-overlay img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: calc(100% - clamp(28px, 4vw, 58px));
+  height: calc(100% - clamp(28px, 4vw, 58px));
+  max-width: none;
+  max-height: none;
+  object-fit: contain;
+  object-position: center;
+  transform: translate(-50%, -50%);
+}
+

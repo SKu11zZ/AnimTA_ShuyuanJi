@@ -571,10 +571,20 @@ document.querySelectorAll(".tilt-card").forEach((card) => {
 
 document.querySelectorAll("[data-compare]").forEach((widget) => {
   const input = widget.querySelector("input");
+  const overlay = widget.querySelector(".compare-overlay");
   const update = () => {
-    widget.style.setProperty("--split", `${input.value}%`);
+    const value = Math.max(0, Math.min(100, Number(input.value) || 0));
+    const split = `${value}%`;
+    const hidden = `${100 - value}%`;
+    widget.style.setProperty("--split", split);
+    if (overlay) {
+      overlay.style.clipPath = `inset(0 ${hidden} 0 0)`;
+      overlay.style.webkitClipPath = `inset(0 ${hidden} 0 0)`;
+    }
   };
-  input.addEventListener("input", update);
+  ["input", "change", "pointermove", "touchmove"].forEach((eventName) => {
+    input.addEventListener(eventName, update, { passive: true });
+  });
   update();
 });
 
@@ -868,6 +878,7 @@ if (runnerCanvas && runnerCtx) {
     stepRunner(time);
   });
 }
+
 
 
 
