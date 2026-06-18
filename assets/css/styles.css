@@ -3172,3 +3172,113 @@ p,
   transform: translate(-50%, -50%);
 }
 
+
+/* Personal game record bars */
+.game-record-list {
+  display: grid;
+  gap: clamp(12px, 1.2vw, 18px);
+  width: min(1180px, 100%);
+  margin-top: clamp(28px, 4vw, 58px);
+}
+
+.game-record-card {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(220px, 0.8fr) minmax(0, 1.6fr);
+  gap: clamp(18px, 2vw, 34px);
+  align-items: center;
+  overflow: hidden;
+  padding: clamp(18px, 2vw, 28px);
+  border: 1px solid rgba(214, 181, 106, 0.24);
+  border-radius: 18px;
+  background: linear-gradient(90deg, rgba(214, 181, 106, 0.1), transparent 42%), rgba(10, 10, 10, 0.76);
+  box-shadow: inset 0 0 34px rgba(214, 181, 106, 0.04), 0 18px 54px rgba(0, 0, 0, 0.22);
+  transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
+}
+
+.game-record-card:hover {
+  transform: translateX(8px);
+  border-color: rgba(240, 216, 148, 0.58);
+  background: linear-gradient(90deg, rgba(214, 181, 106, 0.18), transparent 48%), rgba(12, 12, 12, 0.88);
+}
+
+.game-record-card::before {
+  position: absolute;
+  inset: 0;
+  content: "";
+  pointer-events: none;
+  background-image: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.08), transparent), repeating-linear-gradient(0deg, rgba(214, 181, 106, 0.045) 0 1px, transparent 1px 11px);
+  opacity: 0.5;
+}
+
+.game-record-title,
+.game-record-card dl {
+  position: relative;
+  z-index: 1;
+}
+
+.game-record-title {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.game-record-title span {
+  display: grid;
+  flex: 0 0 44px;
+  width: 44px;
+  height: 44px;
+  place-items: center;
+  border: 1px solid rgba(214, 181, 106, 0.36);
+  border-radius: 999px;
+  color: var(--gold);
+  font-family: "Cascadia Mono", "SFMono-Regular", Consolas, monospace;
+  font-weight: 900;
+}
+
+.game-record-title h2 {
+  margin: 0;
+  font-size: clamp(24px, 2.5vw, 44px);
+  line-height: 1;
+}
+
+.game-record-card dl {
+  display: grid;
+  grid-template-columns: minmax(110px, 0.55fr) minmax(100px, 0.55fr) minmax(220px, 1.5fr);
+  gap: 12px;
+  margin: 0;
+}
+
+.game-record-card dl div {
+  min-width: 0;
+  padding: 12px 14px;
+  border: 1px solid rgba(214, 181, 106, 0.16);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.game-record-card dt {
+  color: rgba(214, 181, 106, 0.82);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.game-record-card dd {
+  margin: 4px 0 0;
+  color: rgba(245, 243, 234, 0.82);
+  font-size: clamp(14px, 1vw, 18px);
+  font-weight: 750;
+}
+
+@media (max-width: 980px) {
+  .game-record-card,
+  .game-record-card dl {
+    grid-template-columns: 1fr;
+  }
+
+  .game-record-card:hover {
+    transform: translateY(-3px);
+  }
+}
