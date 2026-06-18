@@ -245,7 +245,7 @@
   "Realtime Mocap Game / Animation Pipeline": "实时动捕游戏 / 动画管线",
   "Syneste Mocap Research": "Syneste 动捕研究",
   "Jan 2026 - May 2026": "2026年1月 - 2026年5月",
-  "3D Art / Concept Design": "3D 美术 / 服饰设计",
+  "3D Art / Concept Design": "3D 美术 / 概念设计",
   "Mar 2024 - May 2024": "2024年3月 - 2024年5月",
   "Ticket Pending": "车票前往 待补充项目",
   "Placeholder / Coming Soon": "待补充 / 即将添加",
@@ -264,7 +264,7 @@
   "Pipeline": "管线",
   "Prototype": "研究",
   "Demo Video": "演示视频",
-  "Concept": "服饰设计",
+  "Concept": "概念设计",
   "Gameplay": "资产",
   "Render Video": "渲染视频",
   "Download Demo Video": "下载演示视频",
@@ -298,9 +298,9 @@
   "Ticket to Syneste Mocap Research": "车票前往 Syneste 动捕研究",
   "Ticket to 50 Years After Nuclear War": "车票前往 核战后五十年",
   "Ticket to Project Placeholder": "车票前往 待补充项目",
-  "3D Art / Costume Design": "3D 美术 / 服饰设计",
+  "3D Art / Concept Design": "3D 美术 / 概念设计",
   "Research": "研究",
-  "Costume Design": "服饰设计",
+  "Concept Design": "概念设计",
   "Level": "关卡",
   "Asset": "资产",
   "Technical Art - bringing concepts and creative ideas into production pipelines": "技术美术 - 让概念和创意落地到生产管线",
@@ -927,6 +927,7 @@ if (runnerCanvas && runnerCtx) {
     stepRunner(time);
   });
 }
+
 
 
 
