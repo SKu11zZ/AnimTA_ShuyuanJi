@@ -94,6 +94,10 @@
   "Add school, degree, certifications, relevant classes, awards, research topics, and technical art learning path.": "这里可以加入学校、学位、证书、相关课程、奖项、研究主题和技术美术学习路径。",
   "Education and professional work across game design, technical art, and animation pipelines.": "横跨游戏设计、技术美术和动画管线的教育与职业经历。",
   "Education Background": "教育背景",
+  "/ Art and design university ranked QS World No.3 and U.S. No.1 in 2024.": "：帕森斯设计学院 2024 年 QS 艺术与设计大学世界第三、美国第一。",
+  "/ STEM program ranked U.S. News No.3 in game design.": "：U.S. News 游戏设计第三，STEM 专业。",
+  "designed and produced a psychological horror game prototype in a five-person team, iterated through multiple rounds of playtesting, improved performance and gameplay, and delivered a highly polished prototype with hundreds of plays and dozens of positive comments.": "以 5 人小组的形式，按照游戏行业标准，在学期内设计制作一款心理恐怖游戏原型，并根据试玩多次迭代，优化游戏性能，改善游戏玩法，最终产出完成度较高的游戏原型，收获上百次游玩和数十次好评。",
+  "practiced procedural content creation in Unity, including wave-function-collapse, Lindenmayer systems, Perlin noise, algorithmic terrain, landform and river generation, procedural scene props, and batch material workflows with texture sets.": "在 Unity 中，利用波函数坍缩算法、林登迈尔系统算法、柏林噪声算法来程序化生成游戏内容；掌握了利用算法生成山地、地牢、河流等地形，以及在游戏中程序化生成场景道具，或使用贴图集来批量制定材质。",
   "Parsons School of Design": "帕森斯设计学院",
   "New York, United States": "纽约，美国",
   "BFA Design and Technology": "本科（BFA 艺术学士）：设计与科技",
@@ -878,27 +882,4 @@ if (runnerCanvas && runnerCtx) {
     stepRunner(time);
   });
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
