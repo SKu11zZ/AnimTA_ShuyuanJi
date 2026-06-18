@@ -134,11 +134,11 @@
   "Code / Tools": "代码 / 工具",
   "ArtStation Page Coming Soon": "ArtStation 页面即将完善",
   "Bilibili Page Coming Soon": "Bilibili 页面即将完善",
-  "Discord Contact Coming Soon": "Discord 联系方式即将完善",
+  "Discord Contact Coming Soon": "Discord 联系方式",
   "GitHub Page Coming Soon": "GitHub 页面即将完善",
   "This temporary page can become a curated ArtStation bridge with featured renders and portfolio links.": "这个临时页面之后可以做成 ArtStation 中转页，展示精选渲染和作品集链接。",
   "This temporary page will later redirect to your Bilibili profile, demo uploads, or making-of videos.": "这个临时页面之后可以跳转到你的 Bilibili 主页、演示上传或制作过程视频。",
-  "This temporary page can later hold your Discord handle, server invite, or collaboration instructions.": "这个临时页面之后可以放 Discord 账号、服务器邀请或合作说明。",
+  "Discord username for contact and collaboration.": "用于联系与合作的 Discord 用户名。",
   "This temporary page can later list tools, shaders, scripts, and repositories related to your technical art work.": "这个临时页面之后可以列出与你技术美术工作相关的工具、着色器、脚本和仓库。",
   "Realtime mocap / 3D art / technical pipelines": "实时动捕 / 3D 美术 / 技术管线",
   "I build playable technical art work across mocap pipelines, realtime scenes, character assets, interaction prototypes, and production-ready visual systems.": "我围绕动捕管线、实时场景、角色资产、交互原型和生产级视觉系统构建可玩的技术美术作品。",
@@ -819,6 +819,7 @@ if (runnerCanvas && runnerCtx) {
     stepRunner(time);
   });
 }
+
 
 
 
