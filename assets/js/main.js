@@ -2,9 +2,29 @@
   "Welcome": "主页",
   "About": "我是谁",
   "Projects": "项目",
+  "Games": "游戏",
   "Career": "经历",
   "Contact": "联系",
-  "Open comms": "开启联络",
+  "Playable game achievements and production experience": "可玩的游戏成果与制作经历",
+  "I have more than five years of Unity and Unreal Engine development experience, with hands-on work across game design, technical art, production leadership, animation pipelines, interactive prototypes, and playable demos. This section will collect shipped games, prototypes, jams, class projects, and collaborative productions as official materials are added.": "我拥有超过5年的 Unity 和 Unreal Engine 游戏开发经验，实践内容覆盖游戏设计、技术美术、制作管理、动画管线、交互原型和可玩 Demo。这个板块会随着正式素材加入，持续收录已发布游戏、原型、Game Jam、课程项目和合作制作。",
+  "Playable Work": "可玩作品",
+  "Games I worked on": "我参与制作的游戏",
+  "Interactive mocap prototype": "交互式动捕原型",
+  "Syneste Mocap Demo": "Syneste 动捕 Demo",
+  "A realtime Vicon mocap pipeline demo that retargets captured performance into Unreal Engine interaction.": "一个实时 Vicon 动捕管线 Demo，将捕捉表演重定向到 Unreal Engine 交互场景中。",
+  "Solo UE5 interactive scene": "单人 UE5 交互场景",
+  "An immersive UE5 concept art project with interactable tasks, character assets, environment dressing, and escape flow.": "一个沉浸式 UE5 概念美术项目，包含交互任务、角色资产、场景布置和逃离流程。",
+  "Supported platforms": "支持平台",
+  "External Page": "外部页面",
+  "Open Page": "打开页面",
+  "Producer, animation TA, mocap performer, researcher.": "制作人、动画技术美术、动捕演员、研究员。",
+  "Solo designer, 3D artist, technical artist, blueprint implementation.": "单人设计师、3D 美术、技术美术、蓝图实现。",
+  "Upcoming entry": "后续条目",
+  "Game Slot 03": "游戏位 03",
+  "Placeholder for the next game project. Cover, supported platforms, external link, and role details will be added later.": "预留给下一个游戏项目。封面、支持平台、外部链接和职责说明会在之后补充。",
+  "Cover Pending": "封面待补充",
+  "Platform pending": "平台待补充",
+  "To be added.": "待添加。",  "Open comms": "开启联络",
   "Contact Me": "联系我",
   "Back Home": "返回首页",
   "Back to Projects": "返回项目",
@@ -247,6 +267,7 @@ const titleMap = {
   "Welcome | Game Technical Artist Portfolio": "欢迎 | 游戏技术美术作品集",
   "About Me | Game Technical Artist Portfolio": "我是谁 | 游戏技术美术作品集",
   "Projects | Game Technical Artist Portfolio": "项目 | 游戏技术美术作品集",
+  "Games | Game Technical Artist Portfolio": "游戏 | 游戏技术美术作品集",
   "Career & Education | Game Technical Artist Portfolio": "经历与教育 | 游戏技术美术作品集",
   "Contact Me | Game Technical Artist Portfolio": "联系我 | 游戏技术美术作品集",
   "Secret Runner | Ticket Gate": "隐藏小游戏 | 车票入口",
@@ -847,6 +868,9 @@ if (runnerCanvas && runnerCtx) {
     stepRunner(time);
   });
 }
+
+
+
 
 
 
