@@ -1076,6 +1076,44 @@ h2 {
   font-weight: 800;
 }
 
+
+.contact-layout-single {
+  grid-template-columns: minmax(0, 1fr);
+  max-width: 980px;
+  margin-inline: auto;
+}
+
+.home-career-list {
+  display: grid;
+  gap: 14px;
+}
+
+.home-career-list article {
+  padding: clamp(18px, 2.4vw, 26px);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(214, 181, 106, 0.09), rgba(6, 7, 7, 0.72));
+}
+
+.home-career-list span {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--gold);
+  font-family: var(--mono);
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.home-career-list h3 {
+  margin: 0 0 8px;
+  color: var(--ink);
+  font-size: clamp(20px, 2vw, 30px);
+}
+
+.home-career-list p {
+  margin: 0;
+  color: var(--muted);
+}
 .page-hero {
   padding: clamp(68px, 9vw, 128px) clamp(20px, 4vw, 56px) clamp(48px, 7vw, 88px);
 }
