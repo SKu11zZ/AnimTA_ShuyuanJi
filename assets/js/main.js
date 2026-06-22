@@ -54,7 +54,7 @@
   "Playable Work": "可玩作品",
   "Games I worked on": "我参与制作的游戏",
   "Fan game / gacha battle RPG": "二创游戏 / 抽卡战斗 RPG",
-  "Endmon": "Endmon 明日方舟终末地二创游戏",
+  "Endmon": "Endmon",
   "An Arknights: Endfield fan game where players can pull characters, fight, and upgrade their squad.": "一款允许你抽卡、战斗和升级的明日方舟终末地二创游戏。",
   "March 2026": "2026年3月",
   "Fan Game": "二创游戏",
