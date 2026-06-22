@@ -1079,8 +1079,19 @@ h2 {
 
 .contact-layout-single {
   grid-template-columns: minmax(0, 1fr);
-  max-width: 980px;
+  justify-items: center;
+  max-width: none;
   margin-inline: auto;
+}
+
+.contact-layout-single .contact-panel {
+  width: min(920px, 100%);
+}
+
+.contact-list a,
+.contact-list p,
+.home-career-list p {
+  overflow-wrap: anywhere;
 }
 
 .home-career-list {
@@ -3822,5 +3833,24 @@ p,
 
   .timeline-item time {
     padding-right: 0;
+  }
+}
+
+/* Contact page centering and mobile safety */
+@media (max-width: 700px) {
+  .contact-layout-single {
+    padding-inline: 18px;
+  }
+
+  .contact-layout-single .contact-panel {
+    width: 100%;
+  }
+
+  .contact-list {
+    gap: 14px;
+  }
+
+  .home-career-list article {
+    border-radius: 14px;
   }
 }
