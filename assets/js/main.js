@@ -78,6 +78,7 @@
   "An immersive UE5 concept art project with interactable tasks, character assets, environment dressing, and escape flow.": "一个沉浸式 UE5 概念美术项目，包含交互任务、角色资产、场景布置和逃离流程。",
   "Supported platforms": "支持平台",
   "External Page": "外部页面",
+  "Play Now": "点击游玩",
   "Open Page": "打开页面",
   "Producer, animation TA, mocap performer, researcher.": "制作人、动画技术美术、动捕演员、研究员。",
   "Solo designer, 3D artist, technical artist, blueprint implementation.": "单人设计师、3D 美术、技术美术、蓝图实现。",
@@ -383,18 +384,25 @@ function translateTextNode(node, lang) {
   node.textContent = `${leading}${translated}${trailing}`;
 }
 
+function applyExplicitTranslations(lang) {
+  document.querySelectorAll("[data-i18n-en][data-i18n-zh]").forEach((element) => {
+    element.textContent = lang === "zh" ? element.dataset.i18nZh : element.dataset.i18nEn;
+  });
+}
+
 function setLanguage(lang) {
   const normalized = lang === "zh" ? "zh" : "en";
   localStorage.setItem("portfolioLang", normalized);
   document.documentElement.lang = normalized === "zh" ? "zh-CN" : "en";
   document.body?.classList.toggle("lang-zh", normalized === "zh");
   document.querySelector(".language-switch")?.classList.toggle("is-zh", normalized === "zh");
+  applyExplicitTranslations(normalized);
 
   const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
     acceptNode(node) {
       const parent = node.parentElement;
       if (!parent || ["SCRIPT", "STYLE", "NOSCRIPT", "TEXTAREA"].includes(parent.tagName)) return NodeFilter.FILTER_REJECT;
-      if (parent.closest(".home-cube, .social-icon, .ticket-qr, canvas")) return NodeFilter.FILTER_REJECT;
+      if (parent.closest(".home-cube, .social-icon, .ticket-qr, canvas, [data-i18n-en][data-i18n-zh]")) return NodeFilter.FILTER_REJECT;
       return node.textContent.trim() ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
     }
   });
