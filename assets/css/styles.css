@@ -3767,3 +3767,22 @@ p,
     font-size: clamp(26px, 7.5vw, 36px) !important;
   }
 }
+
+/* Career timeline dot spacing fix */
+.timeline-item::before {
+  left: 154px !important;
+}
+
+.timeline-item time {
+  padding-right: 22px;
+}
+
+@media (max-width: 700px) {
+  .timeline-item::before {
+    left: 0 !important;
+  }
+
+  .timeline-item time {
+    padding-right: 0;
+  }
+}

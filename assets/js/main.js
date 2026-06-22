@@ -173,7 +173,7 @@
   "Professional": "职业",
   "Professional Experience": "职业经历",
   "MAGIC Maker Research Project - Syneste": "MAGIC Maker Research Project - Syneste",
-  "2026.01 - Now": "2026.1 - 至今",
+  "2026.01 - 2026.05": "2026.1 - 2026.5",
   "Role:": "担任角色：",
   "Role: Project Lead, Mocap Animator, and Researcher.": "担任角色：项目组长、动捕动画师、研究员。",
   "Project setup:": "项目立项：",
